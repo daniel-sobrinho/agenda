@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./jquery.mask.js"></script>
+    <script src="funcao3.js"> </script>
+</head>
+<body>
+    <main>
+    <h1>Agenda de Contatos</h1>
+    <hr/>
+    <div id="alteracao">
+    <form onsubmit="addNewContact()">
+        <div>
+            <label>Nome: </label><br/>
+            <input type="text" name="inome"  size="30" required/>
+        </div>
+        <div>
+            <label>Telefone: <small>(opcional)</small></label><br/>
+            <input type="tel" name="ifone"/>
+            <small>"88 98945 6978"</small>
+        </div>
+        <div>
+            <label>Email: <small>(opcional)</small></label><br/>
+            <input type="email" name="iemail" size="30"/>
+            <small>"contato@email.com"</small>
+        </div>
+        <div>
+            <label>Local: <small>(opcional)</small></label><br/>
+            <input type="text" name="ilocal" size="30"/>
+        </div>
+        <button type="submit">Salvar<img src="https://img.icons8.com/offices/30/000000/address-book.png"/></button>
+        <button type="button">Adicionar Telefone<img src="https://img.icons8.com/offices/30/000000/address-book.png"/></button>       
+    </form>
+    <!-- <hr/> -->
+    <div id="listagem">
+        <h3>Contatos:</h3>
+        <ul id="listContact">
+
+        </ul>
+    </div>
+    </div>
+    </main>
+</body>
+</html>
