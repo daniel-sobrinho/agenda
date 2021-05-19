@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
 
-main{
+main {
     /* width:80%; */
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
-h1{
+h1 {
     font-family: sans-serif;
     font-weight: 600;
 }
 
-#alteracao{
+#alteracao {
     display: flex;
     margin: auto;
 }
 
-form{
+form {
     display: inline-block;
     width: 50%;
     background-color: antiquewhite;
@@ -28,20 +28,20 @@ form{
     box-sizing: border-box;
 }
 
-div{
-   margin-left: 60px;
-   margin-bottom: 8px;
+div {
+    margin-left: 60px;
+    margin-bottom: 8px;
 }
 
-small{
-   color:green; 
+small {
+    color: green;
 }
 
-input{
+input {
     margin-left: 1px;
 }
 
-div#listagem{
+div#listagem {
     display: inline-block;
     width: 50%;
     padding: 20px;
@@ -53,19 +53,23 @@ div#listagem{
 }
 
 
-button{
+button {
     display: inline-block;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     color: cornsilk;
     margin-left: 60px;
     border-radius: 5px;
 }
 
-button:hover{
-    background-color:darkolivegreen;
+button:hover {
+    background-color: darkolivegreen;
 }
 
-img{
+img {
     vertical-align: middle;
     margin-left: 3px;
+}
+
+#listContact button {
+    margin-left: 5px;
 }
